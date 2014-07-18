@@ -1,0 +1,219 @@
+header #MB {
+    color: #529C0B;
+
+}
+
+header h1 {
+    padding: 0px;
+    color: black;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4.5em;
+    text-align: center;
+    border-bottom: 1px dotted gray;
+}
+
+body {
+    background-image: url('../images/computer.gif');
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+h3 {
+    font-family: 'Source Code Pro';
+    color:#B3A200;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    overflow: hidden;
+}
+
+.right-side {
+    width: 50%;
+    float: right;
+    padding-top: 1em;
+}
+
+.right-side p {
+    font-family: 'Source Code Pro';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0px 40px 0px 40px;
+}
+
+.scroll {
+    float:right;
+    margin-right: 175px;
+    margin-top: 1em;
+
+}
+
+.icon-bar {
+    padding-left: 50px;
+}
+
+.icon-bar img {
+    padding-right: 44px;
+}
+
+.intro-to-me {
+    padding-top: 30px;
+}
+
+.resume p {
+    font-family: 'Source Code Pro';
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 0px 40px 0px 40px;
+}
+
+.bottom {
+    margin-top: 300px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.code {
+    float: left;
+    clear: both;
+    width: 61%;
+    background-color: beige;
+    padding: 15px;
+    border-right: 2px solid #EDEACF;
+    border-bottom: 2px solid #EDEACF;
+    border-left: 2px solid #CCC9B2;
+    border-top: 2px solid #CCC9B2;
+
+}
+
+.code p {
+    font-family: 'Source Code Pro';
+    color: #5A402B;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0px 40px 0px 40px;
+    margin-bottom: 40px;
+}
+
+.code h3 a {
+    color: green;
+    text-decoration: none;
+}
+
+.code h3 a:hover {
+    color: black;
+}
+
+.code h1 {
+    color: #DA38BE;
+    font-weight: normal;
+}
+
+.technologies {
+    color: black;
+}
+
+.terminal {
+    overflow: hidden;
+}
+
+.side-bar {
+    text-align: center;
+    width: 35%;
+    float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.side-bar p {
+    font-family: 'Source Code Pro';
+    font-size: 16px;
+
+}
+
+.side-bar img {
+    margin-top: 0px;
+}
+
+.side-bar#escape {
+    background-color: black;
+    margin: 20px 20px 0 0;
+}
+
+.side-bar#gifthorse {
+    background-color: white;
+    margin: 30px 20px; 0 0;
+}
+
+#gifthorse {
+    display: block;
+    width:400px;
+    height:197px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-image: url('../images/gifthorse.png');
+    text-indent:-9999px;
+}
+
+.side-bar#gifthorse:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=30);
+}
+
+#escape {
+    display: block;
+    width:400px;
+    height:197px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-image: url('../images/escape_boulder.png');
+    text-indent:-9999px;
+}
+
+
+.side-bar#escape:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=30);
+}
+
+.side-bar#arrows {
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px;
+    border-bottom: 1px dashed gray;
+}
+
+.side-bar#arrows-escape {
+    border-top: 1px dashed gray;
+    margin: 190px 0px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px;
+}
+
+#arrow-up {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-bottom: 20px solid black;
+}
+
+#arrow-down {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid black;
+}
